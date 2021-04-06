@@ -95,6 +95,8 @@ Once you are done answer these questions:
 
 ## Task 2: Make a desktop version of this layout which displays when there is enough screen width to accomodate it. You can see the layout you are aiming for in the screenshot below.
 
+Nice to have: Make so by using Tailwind.css
+
 ![Desktop version](https://github.com/PlugAndPlayTechCenter/ResponsiveScreening/blob/master/assets/rwd-task.png)
 
 
