@@ -3,7 +3,7 @@
 Note: In case you choose a different platform to Angular. You can find some useful files like html, css and json mockup data on the main assetss folder. 
 
 ## The Scenario
-Our application, PlayBook is an innovation platform, a key aspect of innovation is being able to network with other PlayBook members, for that purpose we are adding a feature to be able to browse over all PlayBook users and mark them as favourites.
+Our application, PlayBook is an innovation platform, a key aspect of innovation is being able to network with other PlayBook members, for that purpose we are adding a feature to be able to browse over all PlayBook users and show them in responsive way.
 
 Please take your time to ask any question that can help you craft your software.
 
