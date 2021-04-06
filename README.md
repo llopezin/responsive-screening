@@ -95,7 +95,7 @@ Once you are done answer these questions:
 
 ## Task 2: Make a desktop version of this layout which displays when there is enough screen width to accomodate it. You can see the layout you are aiming for in the screenshot below.
 
-![Desktop version](http://url/to/img.png)
+![Desktop version](https://github.com/PlugAndPlayTechCenter/ResponsiveScreening/blob/master/assets/rwd-task.png)
 
 
 Make it responsive so it can fit into a mobile screen.
