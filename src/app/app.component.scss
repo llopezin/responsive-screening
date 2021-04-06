@@ -1,0 +1,22 @@
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards li {
+  border: 5px solid #333;
+  margin-bottom: 1em;
+  background-color:whitesmoke;
+}
+
+.cards h2 {
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+
+.cards .inner {
+  padding: 0.5em 1em;
+}
