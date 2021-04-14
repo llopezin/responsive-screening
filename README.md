@@ -84,7 +84,7 @@ If you are not sure, we recommend **forking** it on [StackBlitz](https://stackbl
 
 
 # Tasks
-## Task 1: Bring the data from the REST API to the component and show several users in a bootstrap grid.
+## Task 1: Bring the data from the REST API to the component and show several users in a tailwind grid.
 Once you are done answer these questions:
 
 1. How will you handle backend API errors? Describe in detail the approach and explain why you opted for it

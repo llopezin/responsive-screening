@@ -8,6 +8,14 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
       extend: {},
+      
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+      },
+        maxWidth: {
+         '250px': '250px',
+        },
     },
     variants: {
       extend: {},

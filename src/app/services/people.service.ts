@@ -8,11 +8,13 @@ import { Person } from '../models/person';
 @Injectable({ providedIn: 'root' })
 export class PeopleService {
 
+  private enpoint = 'https://reqres.in/api/users'
+
   constructor( private http: HttpClient) { }
 
-  //TODO: implement using "https://reqres.in/api/users"
   getPeople(): Observable<ResultSet<Person>> {
-    return of(peopleMockData);
+    /* return of(peopleMockData); */
+    return this.http.get<ResultSet<Person>>(this.enpoint)
   }
 
 }

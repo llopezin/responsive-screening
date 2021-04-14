@@ -1,8 +1,6 @@
-<li>
-    <h2> George Bluth</h2>
-    <div class="inner">
-    <img class="avatar" src="https://reqres.in/img/faces/1-image.jpg" alt="George Bluth">
-    <p class="email">george.bluth@reqres.in</p>
-    <p>Last update: 12/01/2020 16:23</p>
-    </div>
-</li>
+<h2> {{user.first_name}} {{user.last_name}}</h2>
+<div class="inner">
+    <img class="avatar" [src]="user.avatar" [alt]="user.first_name +  ' '+ user.last_name">
+    <p class="email">{{user.email}}</p>
+    <p *ngIf="user.last_update">Last update: {{user.last_update}}</p>
+</div>

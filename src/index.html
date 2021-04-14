@@ -61,10 +61,10 @@
   </head>
 
   <body>
-    <header>
+    <header class="flex justify-between">
       <div class="title">My Website</div>
-      <nav>
-        <ul>
+      <nav >
+        <ul class="flex">
           <li>
             <a href="">Link 1</a>
           </li>
@@ -79,20 +79,20 @@
 
     </header>
 
-    <main>
-      <article>
-        <h1>This is the main heading</h1>
-        <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
+    <main class="grid md:grid-cols-3">
+      <aside class="sidebar md:order-last col-span-2 md:col-span-1">
+        <p>Have you discovered all of the other excellent content on this website?</p>
 
-        <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+      </aside>
+      <article class="col-span-2">
+        <h1 class="font-bold text-lg py-3">This is the main heading</h1>
+        <p class="py-2">Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
+
+        <p  class="py-1">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
         
         <app-root></app-root>
         
       </article>
-      <aside class="sidebar">
-        <p>Have you discovered all of the other excellent content on this website?</p>
-
-      </aside>
     </main>
 
   </body>
