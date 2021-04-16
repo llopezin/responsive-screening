@@ -7,16 +7,10 @@ import { PeopleService } from 'src/app/services/people.service';
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss']
 })
-export class CardComponent implements OnInit {
+export class CardComponent{
 
   @Input() user: Person;
 
   constructor() { }
-
-  ngOnInit(): void {
-    
-
-  }
-
 
 }

@@ -1,5 +1,5 @@
-<ul class="cards flex flex-wrap">
-  <li class="mx-1 my-2 flex-auto max-w-xs" *ngFor="let user of users">
+<ul class="cards grid xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-1">
+  <li *ngFor="let user of users">
     <app-card [user] ="user"></app-card>
   </li>
 </ul>

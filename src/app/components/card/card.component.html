@@ -1,5 +1,5 @@
 <h2> {{user.first_name}} {{user.last_name}}</h2>
-<div class="inner">
+<div class="inner flex flex-col items-center">
     <img class="avatar" [src]="user.avatar" [alt]="user.first_name +  ' '+ user.last_name">
     <p class="email">{{user.email}}</p>
     <p *ngIf="user.last_update">Last update: {{user.last_update}}</p>
